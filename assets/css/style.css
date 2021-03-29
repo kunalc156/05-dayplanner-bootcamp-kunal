@@ -68,7 +68,7 @@ textarea {
   border-top: 1px dashed #000000;
   text-align: right;
 }
-
+/** For section two color code row **/
 .past {
   background-color: var(--past);
   color: var(--color1);
