@@ -7,7 +7,13 @@ function displayCurrentTime() {
     $("#currentDay").text(today.format("dddd, MMMM Do"));
 }
 
-
+/**
+ * check if current time is between start and end time
+ * @param {*} startTime 
+ * @param {*} endTime 
+ * @param {*} serverTime 
+ * @returns 
+ */
 const isTimeBetween = function(startTime, endTime, serverTime) {
     let start = moment(startTime, "h A")
     let end = moment(endTime, "h A")
